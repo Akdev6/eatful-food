@@ -1,0 +1,66 @@
+[
+  {
+    "email": "developerankit0608@gmail.com",
+    "id": 3,
+    "name": "Makhana Himalayan Salt",
+    "folder": "product2",
+    "image": [
+      "makhana-himalayan-salt (1).png",
+      "makhana-himalayan-salt (2).png",
+      "makhana-himalayan-salt (3).png",
+      "makhana-himalayan-salt (4).png"
+    ],
+    "weight": "20GM",
+    "quantity": 2,
+    "price": 199,
+    "totalPrice": 398
+  },
+  {
+    "email": "developerankit0608@gmail.com",
+    "id": 2,
+    "name": "Makhana Peri Peri",
+    "folder": "product1",
+    "image": [
+      "makhana-peri-peri (1).png",
+      "makhana-peri-peri (2).png",
+      "makhana-peri-peri (3).png",
+      "makhana-peri-peri (4).png"
+    ],
+    "weight": "20GM",
+    "quantity": 1,
+    "price": 199,
+    "totalPrice": 199
+  },
+  {
+    "email": "developerankit0608@gmsil.com",
+    "id": 1,
+    "name": "Makhana Pudina Punch",
+    "folder": "product",
+    "image": [
+      "makhana-pudina-punch (1).png",
+      "makhana-pudina-punch (2).png",
+      "makhana-pudina-punch (3).png",
+      "makhana-pudina-punch (4).png"
+    ],
+    "weight": "20GM",
+    "quantity": 1,
+    "price": 199,
+    "totalPrice": 199
+  },
+  {
+    "email": "developerankit0608@gmsil.com",
+    "id": 2,
+    "name": "Makhana Peri Peri",
+    "folder": "product1",
+    "image": [
+      "makhana-peri-peri (1).png",
+      "makhana-peri-peri (2).png",
+      "makhana-peri-peri (3).png",
+      "makhana-peri-peri (4).png"
+    ],
+    "weight": "20GM",
+    "quantity": 1,
+    "price": 199,
+    "totalPrice": 199
+  }
+]
