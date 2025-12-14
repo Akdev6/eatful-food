@@ -9,7 +9,8 @@ const path = require("path");
 const cors = require("cors");
 const { v4: uuidv4 } = require('uuid');
 const app = express();
-app.use(cors());
+app.use(cors({ origin: "*"}));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 const CART_FILE = path.join(__dirname, "cart.json");
@@ -19,7 +20,7 @@ const filePath = path.join(process.cwd(), "user.json");
 const session = require("express-session");
 
 app.use(session({
-    secret: "your_secret_key",
+    secret: "1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
     resave: false,
     saveUninitialized: true,
     cookie: { maxAge: 24 * 60 * 60 * 1000 } // 1 day
